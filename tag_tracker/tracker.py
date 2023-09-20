@@ -139,7 +139,7 @@ def main():
     cap.set(cv.CAP_PROP_FPS, 30)
 
     # Load aruco parameters from file
-    aruco_dict = aruco.Dictionary_get(aruco.DICT_4X4_100)
+    aruco_dict = aruco.Dictionary_get(aruco.DICT_4X4_250)
     parameters = aruco.DetectorParameters_create()
     utils.load_detector_params(args.params, parameters)
 
