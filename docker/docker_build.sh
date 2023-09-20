@@ -12,6 +12,7 @@ fi
 
 
 sudo docker build --tag robotarium:python_tag_tracker \
+		  --no-cache \
 		  --build-arg ROBO_HOST="$1" \
 		  --build-arg ROBO_PORT="$2" \
 		  .
