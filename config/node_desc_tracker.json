@@ -14,6 +14,9 @@
 		 "type": "DATA"},
 		{"link": "103/status",
 		 "required": false,
+		 "type": "DATA"},
+		{"link": "104/status",
+		 "required": false,
 		 "type": "DATA"}
  	]
 }
