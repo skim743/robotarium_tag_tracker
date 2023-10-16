@@ -12,3 +12,7 @@ cd path/to/python_tag_tracker/docker
 cd path/to/python_tag_tracker/docker
 ./docker_run.sh
 ```
+
+# Configuration
+1. Check line 9 in 'docker_run.sh' to see if the device number matches the camera that is going to be used
+2. Check line 12 and 13 in 'docker_run.sh' for the IP address and port of the MQTT server
