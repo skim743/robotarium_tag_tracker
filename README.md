@@ -14,5 +14,6 @@ cd path/to/python_tag_tracker/docker
 ```
 
 # Configuration
-1. Check line 9 in 'docker_run.sh' to see if the device number matches the camera that is going to be used
-2. Check line 12 and 13 in 'docker_run.sh' for the IP address and port of the MQTT server
+1. Check line 9 in 'docker/docker_run.sh' to see if the device number matches the camera that is going to be used
+2. Check line 12 and 13 in 'docker/docker_run.sh' for the IP address and port of the MQTT server
+3. Update 'config/node_desc_tracker.json' with the list of robots being used
